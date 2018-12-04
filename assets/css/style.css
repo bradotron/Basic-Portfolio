@@ -7,3 +7,114 @@ purple = #6B0C75
 dark gold = #352905
 */
 
+header {
+    width: 100%;
+    margin: auto;
+
+    line-height: 50px;
+
+    background-color: #00684E;
+
+    box-shadow: 0px 2px 10px 2px grey;
+}
+
+footer {
+    clear: both;
+
+    width: 100%;
+    margin: auto;
+    padding: 15px 0px;
+
+    text-align: center;
+
+    background-color: #00684E;
+    color: white;
+}
+
+body {
+    /* need to set a background */
+}
+
+
+main {
+    max-width: 960;
+    width: 100%;
+}
+
+
+
+.nav-head {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+
+    line-height: 50px;
+
+    background-color: #00684E;
+
+
+}
+
+.nav-link-right {
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    margin: auto 10px auto 10px;
+}
+
+.nav-link-right:hover {
+    background-color: #12B48C;
+}
+
+.logo {
+    margin-right: auto;
+    background-color: #B48A09;
+    color: white;
+
+    padding: 0px 20px;
+
+    font-size: 24px;
+}
+
+.container {
+    max-width: 960px;
+
+    width: 100%; /* this width and max-width combo sets the size to be the viewport until the viewport is bigger then 960 */
+    max-width: 960px;
+    overflow: auto; /* overflow makes the container grow to fit any overflowed float content*/
+    margin: auto;
+    padding: 0;
+
+}
+
+.bio-text {
+    padding: 10px;
+}
+
+.img-float-left {
+    float: left;
+    margin: 10px;
+}
+
+.img-float-right {
+    float: right;
+    margin: 10px;
+}
+
+.bio-header {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+
+    border-bottom: solid;
+    border-bottom-color: #00684E;
+
+    font-size: 24px;
+}
+

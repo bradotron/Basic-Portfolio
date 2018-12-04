@@ -3,35 +3,51 @@
 <html>
 <head>
     <title>Bradley Jensen</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <!--This header is the page banner and includes
     name of the page and navigation links-->
+    
+    <!--new header with nav and a elements-->
     <header>
-        <ul>
-            <li>Bradley Jensen</li>
-            <li><a href=index.html>About Me</a></li>
-            <li><a href=portfolio.html>Portfolio</a></li>
-            <li><a href=contact.html>Contact</a></li>
-        </ul>
+        <nav class="nav-head">
+            <span class="logo">Bradley Jensen</span>
+            <a class="nav-link-right" href="portfolio.html">Portfolio</a>
+            <a class="nav-link-right" href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <!--about me will have a head shot and a short bio-->
-    <div>
-        <section>
-            <img src="https://placehold.it/200x200" alt="this is a dope headshot of bradley jensen">
-            <div>About Me</div>
+    <main>
+        <h1 class="bio-header">About Me</h1>
+        <div class="container">
+            
 
-            <p>
+            <img class="img-float-left" src="assets/images/200x200.jpg" alt="this is a dope headshot of bradley jensen">
+            
+            
+
+            <p class="bio-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus elit, aliquet ut auctor vitae, ullamcorper eget mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque at viverra lacus. In porttitor congue diam, ac rhoncus purus pulvinar et. Proin faucibus, felis in lobortis sollicitudin, diam tortor commodo ligula, iaculis molestie felis ipsum ut sapien. Nulla.
-            <br>
+            </p>        
+            
+            <img class="img-float-right" src="assets/images/150x150.jpg" alt="this is a dope headshot of bradley jensen">
+
+            <p class="bio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus elit, aliquet ut auctor vitae, ullamcorper eget mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque at viverra lacus. In porttitor congue diam, ac rhoncus purus pulvinar et. Proin faucibus, felis in lobortis sollicitudin, diam tortor commodo ligula, iaculis molestie felis ipsum ut sapien. Nulla.
             </p>
-        </section>
-    </div>
 
 
-    <footer>This is a footer</footer>
+        </div>
+    </main>
+
+    <footer>
+    <a>Copyright 2018</a>
+    </footer>
 </body>
 
 </html>

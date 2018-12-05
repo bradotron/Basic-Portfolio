@@ -40,8 +40,8 @@ h1 {
     border-bottom: solid;
     border-bottom-color: #00684E;
 
-    font-size: 24px;
-    text-indent: 20px;
+    font-size: 200%;
+    text-indent: 3vw;
 }
 
 body {
@@ -52,12 +52,15 @@ body {
 main {
     max-width: 960px;
     width: 100%;
-    margin: 20px auto auto auto;
+    margin: 5vw auto auto auto;
 
     background-color: lightgrey;
 }
 
-
+p {
+    text-align: justify;
+    font-size: 1.5em;
+}
 
 .nav-head {
     display: flex;
@@ -76,6 +79,8 @@ main {
     width: 80px;
     text-align: center;
     color: white;
+
+    font-size: 100%;
 }
 
 .nav-link-right:hover {
@@ -89,7 +94,7 @@ main {
 
     padding: 0px 20px;
 
-    font-size: 24px;
+    font-size: 150%;
 }
 
 .container {

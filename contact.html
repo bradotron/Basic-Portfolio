@@ -5,12 +5,14 @@
 <head>
     <title>Bradley Jensen</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-        <!--navigation header goes here-->
+    <!--navigation header goes here-->
     <header>
         <nav class="nav-head">
             <span class="logo">Bradley Jensen</span>
@@ -22,11 +24,22 @@
     <main>
         <div class="container">
             <h1>Contact</h1>
-            <p>imagine wonderful content here</p>
-            <!--need a contact input form
-            with a contact email
-            a subject
-            and a larger text input box-->
+            <!--need a contact input form with a contact email a subject and a larger text input box-->
+            <form>
+                <div>
+                    <label for="lname">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="cemail">Contact Email</label>
+                    <input type="text" id="cemail" name="contactemail" placeholder="Your email..">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
 
         </div>
     </main>

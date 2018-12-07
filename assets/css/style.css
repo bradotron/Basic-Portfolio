@@ -11,7 +11,7 @@ header {
     width: 100%;
     margin: auto;
 
-    line-height: 200%;
+    line-height: 150%;
 
     background-color: #00684E;
 
@@ -35,14 +35,14 @@ footer {
 h1 {
     width: 100%;
 
-    line-height: 200%;
+    line-height: 150%;
 
     border-bottom: solid;
     border-bottom-color: #00684E;
 
     color: #B48A09;
 
-    font-size: 200%;
+    font-size: 150%;
     text-indent: 3vw;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -62,7 +62,7 @@ main {
     margin: 5vw auto auto auto;
 
     background-color: snow;
-    box-shadow: 0px 3px 5px 0px grey;
+    box-shadow: 0px 0px 5px 0px grey;
 }
 
 p {
@@ -143,6 +143,8 @@ input[type=submit]:hover {
     margin: 10px;
 
     text-align: center;
+
+    border: 1px solid #00684E;
 }
 
 .a-prtf:hover .span-prtf {

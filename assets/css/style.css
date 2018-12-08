@@ -19,17 +19,10 @@ header {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     clear: both;
-
     width: 100%;
-    padding: 15px 0px;
-
-    text-align: center;
-
-    background-color: #00684E;
-    color: white;
+    height: 40px;
+    background-color: antiquewhite;
 }
 
 h1 {
@@ -40,7 +33,7 @@ h1 {
     border-bottom: solid;
     border-bottom-color: #00684E;
 
-    color: #B48A09;
+    color: antiquewhite;
 
     font-size: 150%;
     text-indent: 3vw;
@@ -182,3 +175,16 @@ input[type=submit]:hover {
     max-width: 200px;
 }
 
+.ft-sticky {
+    position: fixed;
+    bottom: 0;
+    clear: both;
+
+    width: 100%;
+    padding: 15px 0px;
+
+    text-align: center;
+
+    background-color: #00684E;
+    color: white;
+}

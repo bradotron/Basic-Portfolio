@@ -34,7 +34,7 @@ h1 {
     border-bottom: solid;
     border-bottom-color: #00684E;
 
-    color: antiquewhite;
+    color: #B48A09;
 
     font-size: 150%;
     text-indent: 3vw;
@@ -62,6 +62,7 @@ main {
 p {
     text-align: justify;
     font-size: 100%;
+    margin: 10px 10px 10px 10px;
 }
 
 form {

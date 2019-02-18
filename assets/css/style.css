@@ -8,12 +8,41 @@ purple = #6B0C75
 dark gold = #352905
 */
 
+body {
+  background-color: antiquewhite;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bg-light {
+  background-color: #88d498;
+}
+
+.float-left {
+  float: left;
+}
+
 /*
  * Container elements
  */
 
 .container {
-  
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: auto;
+  text-align: center;
+}
+
+/*
+ * make images responsive
+ */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem;
 }
 
 /*
@@ -23,10 +52,8 @@ dark gold = #352905
 /* header */
 
 .header {
-  color: #B48A09;
-  background-color: #00684E;
-
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  color: #b48a09;
+  background-color: #00684e;
 
   position: fixed;
   right: 0;
@@ -44,31 +71,30 @@ dark gold = #352905
   padding: 0;
   list-style: none;
   overflow: hidden;
-  
-  color: #B48A09;
-  background-color: #00684E;
 
+  color: #b48a09;
+  background-color: #00684e;
 }
 
 .header li a {
   display: block;
   padding: 1rem 1rem;
   text-decoration: none;
-  color: #B48A09;
+  color: #b48a09;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #007F5D;
+  background-color: #007f5d;
 }
 
 .header .logo {
   display: block;
   float: left;
   font-size: 2em;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
   text-decoration: none;
-  color: #B48A09;
+  color: #b48a09;
 }
 
 /* menu */
@@ -76,7 +102,7 @@ dark gold = #352905
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height 0.2s ease-out;
 }
 
 /* menu icon */
@@ -91,22 +117,22 @@ dark gold = #352905
 }
 
 .header .menu-icon .navicon {
-  background: #B48A09;
+  background: #b48a09;
   display: block;
   height: 2px;
   position: relative;
-  transition: background .2s ease-out;
+  transition: background 0.2s ease-out;
   width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #B48A09;
-  content: '';
+  background: #b48a09;
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   width: 100%;
 }
 
@@ -145,6 +171,29 @@ dark gold = #352905
   top: 0;
 }
 
+/*
+ * Text elements
+ */
+h1 {
+  width: 100%;
+
+  line-height: 150%;
+
+  border-bottom: solid;
+  border-bottom-color: #00684e;
+
+  color: #b48a09;
+
+  font-size: 2rem;
+  text-indent: 3vw;
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+  margin: 0.5rem;
+}
+
 /* 48em = 768px */
 
 @media (min-width: 576px) {
@@ -157,8 +206,12 @@ dark gold = #352905
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
-}
 
+  .img-responsive {
+    float: left;
+  }
+}

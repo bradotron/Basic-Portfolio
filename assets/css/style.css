@@ -9,17 +9,7 @@ dark gold = #352905
 */
 
 body {
-  background-color: antiquewhite;
-
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.bg-light {
-  background-color: #88d498;
-}
-
-.float-left {
-  float: left;
 }
 
 /*
@@ -37,7 +27,18 @@ body {
 }
 
 /*
- * make images responsive
+ * container background images
+ */
+.about-bg-img {
+  height: 100%;
+  background-image: url("/assets/images/about-background.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+ * images responsive
  */
 .img-responsive {
   max-width: 100%;
@@ -52,7 +53,7 @@ body {
 /* header */
 
 .header {
-  color: #b48a09;
+  color: white;
   background-color: #00684e;
 
   position: fixed;
@@ -72,7 +73,7 @@ body {
   list-style: none;
   overflow: hidden;
 
-  color: #b48a09;
+  color: white;
   background-color: #00684e;
 }
 
@@ -80,7 +81,7 @@ body {
   display: block;
   padding: 1rem 1rem;
   text-decoration: none;
-  color: #b48a09;
+  color: white;
 }
 
 .header li a:hover,
@@ -94,7 +95,8 @@ body {
   font-size: 2em;
   padding: 0.5rem 0.5rem;
   text-decoration: none;
-  color: #b48a09;
+  background-color: #B48A09;
+  color: white;
 }
 
 /* menu */
@@ -102,7 +104,7 @@ body {
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-in-out;
 }
 
 /* menu icon */
@@ -117,7 +119,7 @@ body {
 }
 
 .header .menu-icon .navicon {
-  background: #b48a09;
+  background: white;
   display: block;
   height: 2px;
   position: relative;
@@ -127,12 +129,12 @@ body {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #b48a09;
+  background: white;
   content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all 0.2s ease-out;
+  transition: all 0.2s ease-in-out;
   width: 100%;
 }
 
@@ -175,17 +177,11 @@ body {
  * Text elements
  */
 h1 {
-  width: 100%;
-
-  line-height: 150%;
-
-  border-bottom: solid;
-  border-bottom-color: #00684e;
-
-  color: #b48a09;
+  background-color: #00684E;
+  color: white;
 
   font-size: 2rem;
-  text-indent: 3vw;
+  text-indent: 0.5rem;
   text-align: left;
 }
 
@@ -194,7 +190,11 @@ p {
   margin: 0.5rem;
 }
 
-/* 48em = 768px */
+.over-img {
+  background-color: rgba(0,0,0, 0.7);
+  color: white;
+  padding: 0.5rem;
+}
 
 @media (min-width: 576px) {
   .header li {

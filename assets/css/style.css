@@ -73,56 +73,56 @@ textarea {
  */
 .about-bg-img {
   height: 100%;
-  background-image: url("/assets/images/about-background.JPG");
+  background-image: url("../images/about-background.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .portfolio-bg-img {
-  background-image: url("/assets/images/portfoliobg.png");
+  background-image: url("../images/portfoliobg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .word {
-  background-image: url("/assets/images/wordguess.png");
+  background-image: url("../images/wordguess.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .star {
-  background-image: url("/assets/images/starwars.png");
+  background-image: url("../images/starwars.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .trivia {
-  background-image: url("/assets/images/triviagame.png");
+  background-image: url("../images/triviagame.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .giphy {
-  background-image: url("/assets/images/giphywidget.png");
+  background-image: url("../images/giphywidget.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .train {
-  background-image: url("/assets/images/trainscheduler.png");
+  background-image: url("../images/trainscheduler.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .commuter {
-  background-image: url("/assets/images/commuter.png");
+  background-image: url("../images/commuter.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

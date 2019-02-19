@@ -1,166 +1,131 @@
 <!--My first portfolio site-->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bradley Jensen</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <title>Bradley Jensen</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body>
-    <!-- responsive header with drop down menu for on page links -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
 
-    <header class="header">
-      <a href="" class="logo">Bradley Jensen</a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"
-        ><span class="navicon"></span
-      ></label>
-      <ul class="menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
+<body>
+  <!-- responsive header with drop down menu for on page links -->
 
-    <div style="height: 4rem"></div>
+  <header class="header">
+    <a href="" class="logo">Bradley Jensen</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
 
-    <!-- picture with some words -->
-    <div id="about" >
+  <div style="height: 4rem"></div>
+
+  <!-- picture with some words -->
+  <div id="about">
+
+    <div class="container about-bg-img">
       <h1>About Me</h1>
-      <div class="container about-bg-img">
-    
-    
-        <img class="img-responsive" src="assets/images/about.jpg" />
-        <p class="over-img">
-          Hello everyone! My name is Bradley Jensen and I’m an engineer and
-          aspiring web developer. I’m currently living in Washington DC, which is
-          a great place to live and work. I enjoy building things. Everything from
-          a meal I’ve never tried cooking to Internet-of-Things projects. The
-          learning process and solving problems are my passion.
-        </p>
-    
-        <p class="over-img">
-          I’m building a solid portfolio of web development projects. Focusing on
-          a fluid user experience with quick and responsive backend systems.
-          Experienced with HTML, CSS, and JavaScript; including the Bootstrap
-          libraries.
-        </p>
-      </div>
+
+      <img class="img-responsive" src="assets/images/about.jpg" />
+      <p class="over-img">
+        Hello everyone! My name is Bradley Jensen and I’m an engineer and
+        aspiring web developer. I’m currently living in Washington DC, which is
+        a great place to live and work. I enjoy building things. Everything from
+        a meal I’ve never tried cooking to Internet-of-Things projects. The
+        learning process and solving problems are my passion.
+      </p>
+
+      <p class="over-img">
+        I’m building a solid portfolio of web development projects. Focusing on
+        a fluid user experience with quick and responsive backend systems.
+        Experienced with HTML, CSS, and JavaScript; including the Bootstrap
+        libraries.
+      </p>
     </div>
-    <!-- Skill Section -->
+  </div>
+  <!-- Skill Section -->
 
-    <!-- portfolio section -->
-    <div id="portfolio" class="container">
-      <h1>Portfolio</h1>
+  <!-- portfolio section -->
+  <div id="portfolio" class="container">
+    <h1>Portfolio</h1>
 
-      <div class="portfolio portfolio-bg-img">
-        <!-- load each project with a project picture, description, tech used, link to repo, link to deployed project-->
+    <div class="portfolio portfolio-bg-img">
+      <!-- load each project with a project picture, description, tech used, link to repo, link to deployed project-->
 
-        <div class="project word">
-          <h4 class="project-title">Word Guessing Game</h4>
-          <a
-            class="project-link"
-            href="https://github.com/bradotron/Word_Guess_Game"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="project-link"
-            href="https://bradotron.github.io/Word_Guess_Game/"
-            target="_blank"
-            >Demo</a
-          >
-        </div>
+      <div class="project word">
+        <h4 class="project-title">Word Guessing Game</h4>
+        <a class="project-link" href="https://github.com/bradotron/Word_Guess_Game" target="_blank">Github</a>
+        <a class="project-link" href="https://bradotron.github.io/Word_Guess_Game/" target="_blank">Demo</a>
+      </div>
 
-        <div class="project star">
-          <h4 class="project-title">Star Wars Game</h4>
-          <a
-            class="project-link"
-            href="https://github.com/bradotron/Star-Wars-RPG"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="project-link"
-            href="https://bradotron.github.io/Star-Wars-RPG/"
-            target="_blank"
-            >Demo</a
-          >
-        </div>
+      <div class="project star">
+        <h4 class="project-title">Star Wars Game</h4>
+        <a class="project-link" href="https://github.com/bradotron/Star-Wars-RPG" target="_blank">Github</a>
+        <a class="project-link" href="https://bradotron.github.io/Star-Wars-RPG/" target="_blank">Demo</a>
+      </div>
 
-        <div class="project trivia">
-          <h4 class="project-title">Trivia Game</h4>
-          <a
-            class="project-link"
-            href="https://github.com/bradotron/TriviaGame"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="project-link"
-            href="https://bradotron.github.io/TriviaGame/"
-            target="_blank"
-            >Demo</a
-          >
-        </div>
+      <div class="project trivia">
+        <h4 class="project-title">Trivia Game</h4>
+        <a class="project-link" href="https://github.com/bradotron/TriviaGame" target="_blank">Github</a>
+        <a class="project-link" href="https://bradotron.github.io/TriviaGame/" target="_blank">Demo</a>
+      </div>
 
-        <div class="project giphy">
-          <h4 class="project-title">Simple Giphy App</h4>
-          <a
-            class="project-link"
-            href="https://github.com/bradotron/brads-giphy-app"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="project-link"
-            href="https://bradotron.github.io/brads-giphy-app/"
-            target="_blank"
-            >Demo</a
-          >
-        </div>
+      <div class="project giphy">
+        <h4 class="project-title">Simple Giphy App</h4>
+        <a class="project-link" href="https://github.com/bradotron/brads-giphy-app" target="_blank">Github</a>
+        <a class="project-link" href="https://bradotron.github.io/brads-giphy-app/" target="_blank">Demo</a>
+      </div>
 
-        <div class="project train">
-          <h4 class="project-title">Simple Giphy App</h4>
-          <a
-            class="project-link"
-            href="https://github.com/bradotron/TrainScheduler"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="project-link"
-            href="https://bradotron.github.io/TrainScheduler/"
-            target="_blank"
-            >Demo</a
-          >
-        </div>
+      <div class="project train">
+        <h4 class="project-title">Simple Giphy App</h4>
+        <a class="project-link" href="https://github.com/bradotron/TrainScheduler" target="_blank">Github</a>
+        <a class="project-link" href="https://bradotron.github.io/TrainScheduler/" target="_blank">Demo</a>
+      </div>
 
-        <div class="project commuter">
-          <h4 class="project-title">Simple Giphy App</h4>
-          <a
-            class="project-link"
-            href="https://github.com/tellomp/ProjectOne"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="project-link"
-            href="https://tellomp.github.io/ProjectOne/"
-            target="_blank"
-            >Demo</a
-          >
-        </div>
+      <div class="project commuter">
+        <h4 class="project-title">Simple Giphy App</h4>
+        <a class="project-link" href="https://github.com/tellomp/ProjectOne" target="_blank">Github</a>
+        <a class="project-link" href="https://tellomp.github.io/ProjectOne/" target="_blank">Demo</a>
+      </div>
     </div>
 
     <!-- Contact Me section that launches a modal form, or a drop down form -->
-    <div id="contact"></div>
+    <div id="contact">
+      <h1>Contact</h1>
+      <div class="container block">
+
+        <!--need a contact input form with a contact email a subject and a larger text input box-->
+        <form>
+          <div class="form-item">
+            <label for="lname">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+          </div>
+          <div class="form-item">
+            <label for="cemail">Contact Email</label>
+            <input type="text" id="cemail" name="contactemail" placeholder="Your email..">
+          </div>
+          <div class="form-item">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+          <input type="submit" value="Submit">
+        </form>
+
+      </div>
+    </div>
 
     <!-- Footer section that has links to social media -->
-    <div id="footer"></div>
-  </body>
+    <div id="footer" class="footer">
+      <h3>Copyright 2019</h3>
+
+    </div>
+</body>
+
 </html>
